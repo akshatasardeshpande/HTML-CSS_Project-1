@@ -1,0 +1,216 @@
+*{
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+/* body */
+body {
+    font-family: 'Audiowide';font-size: 20px;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    margin-top: 50px;
+    /* margin-left:80px; 
+    margin-right: 80px; */
+}
+
+/* Navbar Section  starts ------------------------------*/
+
+/* section[aria-label="banner"] {
+    margin-top: 50px;
+} */
+
+/* the logo */
+.navbar-container div{
+    margin-top: 50px;
+    margin-left:80px; 
+    width: 100px;
+}
+
+img[alt='brand-logo'] {
+    height: 40px;
+}
+
+
+.list{
+    list-style: none;
+    display: flex;
+    margin-top: -90px;
+    margin-left: 350px;
+    /* background-color: #FAF1EA;   */
+}
+
+.list-item{
+    padding: 2px 20px;
+}
+
+li:nth-child(1){
+font-weight: bold;
+}
+
+li:nth-child(1):after{
+content:" ";
+position:absolute;
+/* bottom: -2px; */
+top: 85px;
+left: 453px;
+width: 3%;
+border-bottom: 2px solid #000;
+}
+
+li:nth-child(4){
+text-transform: uppercase;
+}
+
+/* the search icon & button */
+.button-group{
+   display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* the search icon */
+.search-icon{
+/* width: 2px;
+height: 5px; */
+position:absolute;
+top: 10px;
+left: 1090px;
+}
+
+/* img[alt="search-icon"]{
+height: 40px;
+} */
+
+/* the search button */
+.nav-button{
+width: 150px;
+height:30px;
+border-radius: 15px;
+font-size: large;
+/* background-color: #98e9b9; */
+position: absolute;
+top:58px;
+right:110px;
+}
+
+/* Navbar Section Ends ------------------------------- */
+
+/* Hero Banner Section Starts ------------------------------*/
+
+.hero-container{
+display: flex;
+/* background-color: red; */
+flex-direction: row;
+justify-content: center;
+text-align: center;
+}
+
+/* Patterns */
+.square{
+position: absolute;
+top: 480px;
+/* right:830px; */
+left:250px;
+z-index: -1;
+}
+
+.square img {
+    width: 300px;
+}
+
+.star{
+position: absolute;
+top: 250px;
+right:100px;
+}
+
+.globe{
+    position: absolute;
+    left: 785px;
+}
+
+.hero-container-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 40px;
+}
+
+.hero-container img[alt="person-hero-iamge"] {
+    width: 400px;
+    margin-top: 50px;
+    margin-left:80px; 
+}
+
+.hero-heading{
+    font-size: 3rem;
+    position: absolute;
+    top: 310px;
+    }
+
+    .hero-description{
+        font-family:Arial, Helvetica, sans-serif;
+        /* font-size:medium; */
+        font-size: 14px;
+        font-weight: 300;
+        margin: 40px 230px 40px 230px  ;
+        position: relative;
+        top: 10px;
+        text-align: center;
+        }
+
+.button-email{
+    width: 200px;
+    height: 30px;
+    border-radius: 8px;
+    font-family: 'Audiowide';font-size: 20px;
+    font-size: large;
+    position: relative;
+    /* left: 5px; */
+    right: 10px;
+    top:55px;
+    }
+
+    .button-join{
+        width: 120px;
+        height: 30px;
+        border-radius: 8px;
+        background-color: #1f1f1f;
+        color: #ffffff;
+        font-family: 'Audiowide';font-size: 20px;
+        font-size: large;
+        position: relative;
+        /* left: 5px; */
+        right: 10px;
+        top:55px;
+    }
+    .contact-heading{
+        position:absolute;
+        top:660px;
+        /* left:930px; */
+        right: 400px;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        }
+
+        .icons{
+            position: absolute;
+            top:700px;
+            /* left:900px; */
+            right: 360px;
+            padding: 2px 2px;
+            margin-top: 15px;
+            }
+            
+            .icons span {
+                margin-right: 10px;
+            }
+            .icons span img {
+                width: 28px;
+                height: 28px;
+            }
