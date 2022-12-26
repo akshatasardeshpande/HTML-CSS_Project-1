@@ -7,7 +7,7 @@
 👉 Learnt about positions & CSS selectors<br>
 👉 How to place images in proper places.<br>
 👉 How to put images on top of other images using the z-index property.<br>
-👉 Achieve some responsiveness using FlexBox.<br>
+👉 Achieve some responsiveness using media queries<br>
 
 ## 📌 Tech Stack
 
